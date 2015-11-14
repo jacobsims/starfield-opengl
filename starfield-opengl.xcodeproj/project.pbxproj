@@ -9,6 +9,9 @@
 /* Begin PBXBuildFile section */
 		1651B93D1BF789A900EB68EC /* starfield_openglView.h in Headers */ = {isa = PBXBuildFile; fileRef = 1651B93C1BF789A900EB68EC /* starfield_openglView.h */; };
 		1651B93F1BF789A900EB68EC /* starfield_openglView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1651B93E1BF789A900EB68EC /* starfield_openglView.m */; };
+		1651B9471BF789FA00EB68EC /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1651B9461BF789FA00EB68EC /* OpenGL.framework */; };
+		1651B94A1BF78C0A00EB68EC /* FixedGLView.h in Headers */ = {isa = PBXBuildFile; fileRef = 1651B9481BF78C0A00EB68EC /* FixedGLView.h */; settings = {ASSET_TAGS = (); }; };
+		1651B94B1BF78C0A00EB68EC /* FixedGLView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1651B9491BF78C0A00EB68EC /* FixedGLView.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -16,6 +19,9 @@
 		1651B93C1BF789A900EB68EC /* starfield_openglView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = starfield_openglView.h; sourceTree = "<group>"; };
 		1651B93E1BF789A900EB68EC /* starfield_openglView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = starfield_openglView.m; sourceTree = "<group>"; };
 		1651B9401BF789A900EB68EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1651B9461BF789FA00EB68EC /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
+		1651B9481BF78C0A00EB68EC /* FixedGLView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FixedGLView.h; sourceTree = "<group>"; };
+		1651B9491BF78C0A00EB68EC /* FixedGLView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FixedGLView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -23,6 +29,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1651B9471BF789FA00EB68EC /* OpenGL.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -32,6 +39,7 @@
 		1651B92F1BF789A900EB68EC = {
 			isa = PBXGroup;
 			children = (
+				1651B9461BF789FA00EB68EC /* OpenGL.framework */,
 				1651B93B1BF789A900EB68EC /* starfield-opengl */,
 				1651B93A1BF789A900EB68EC /* Products */,
 			);
@@ -50,6 +58,8 @@
 			children = (
 				1651B93C1BF789A900EB68EC /* starfield_openglView.h */,
 				1651B93E1BF789A900EB68EC /* starfield_openglView.m */,
+				1651B9481BF78C0A00EB68EC /* FixedGLView.h */,
+				1651B9491BF78C0A00EB68EC /* FixedGLView.m */,
 				1651B9401BF789A900EB68EC /* Info.plist */,
 			);
 			path = "starfield-opengl";
@@ -63,6 +73,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1651B93D1BF789A900EB68EC /* starfield_openglView.h in Headers */,
+				1651B94A1BF78C0A00EB68EC /* FixedGLView.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -133,6 +144,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1651B94B1BF78C0A00EB68EC /* FixedGLView.m in Sources */,
 				1651B93F1BF789A900EB68EC /* starfield_openglView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
