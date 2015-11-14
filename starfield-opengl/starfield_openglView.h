@@ -14,8 +14,6 @@
 
 #define STAR_COUNT 1500
 #define STAR_RAND_GRANULARITY 10000
-#define STAR_SPREAD_X 1500
-#define STAR_SPREAD_Y 1500
 #define STAR_SPREAD_Z 3
 
 typedef struct {
