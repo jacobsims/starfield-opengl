@@ -13,6 +13,7 @@
 		1651B94A1BF78C0A00EB68EC /* FixedGLView.h in Headers */ = {isa = PBXBuildFile; fileRef = 1651B9481BF78C0A00EB68EC /* FixedGLView.h */; settings = {ASSET_TAGS = (); }; };
 		1651B94B1BF78C0A00EB68EC /* FixedGLView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1651B9491BF78C0A00EB68EC /* FixedGLView.m */; settings = {ASSET_TAGS = (); }; };
 		168B14C11BF7A60C0013FFED /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 168B14C01BF7A60C0013FFED /* LICENSE */; settings = {ASSET_TAGS = (); }; };
+		168B14C31BF7A6D10013FFED /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 168B14C21BF7A6D10013FFED /* README.md */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		1651B9481BF78C0A00EB68EC /* FixedGLView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FixedGLView.h; sourceTree = "<group>"; };
 		1651B9491BF78C0A00EB68EC /* FixedGLView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FixedGLView.m; sourceTree = "<group>"; };
 		168B14C01BF7A60C0013FFED /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		168B14C21BF7A6D10013FFED /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +66,7 @@
 				1651B9491BF78C0A00EB68EC /* FixedGLView.m */,
 				1651B9401BF789A900EB68EC /* Info.plist */,
 				168B14C01BF7A60C0013FFED /* LICENSE */,
+				168B14C21BF7A6D10013FFED /* README.md */,
 			);
 			path = "starfield-opengl";
 			sourceTree = "<group>";
@@ -148,6 +151,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				168B14C31BF7A6D10013FFED /* README.md in Sources */,
 				1651B94B1BF78C0A00EB68EC /* FixedGLView.m in Sources */,
 				1651B93F1BF789A900EB68EC /* starfield_openglView.m in Sources */,
 			);
