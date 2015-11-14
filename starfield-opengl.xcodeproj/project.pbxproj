@@ -1,0 +1,267 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1651B93D1BF789A900EB68EC /* starfield_openglView.h in Headers */ = {isa = PBXBuildFile; fileRef = 1651B93C1BF789A900EB68EC /* starfield_openglView.h */; };
+		1651B93F1BF789A900EB68EC /* starfield_openglView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1651B93E1BF789A900EB68EC /* starfield_openglView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1651B9391BF789A900EB68EC /* starfield-opengl.saver */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "starfield-opengl.saver"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1651B93C1BF789A900EB68EC /* starfield_openglView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = starfield_openglView.h; sourceTree = "<group>"; };
+		1651B93E1BF789A900EB68EC /* starfield_openglView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = starfield_openglView.m; sourceTree = "<group>"; };
+		1651B9401BF789A900EB68EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1651B9351BF789A900EB68EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1651B92F1BF789A900EB68EC = {
+			isa = PBXGroup;
+			children = (
+				1651B93B1BF789A900EB68EC /* starfield-opengl */,
+				1651B93A1BF789A900EB68EC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1651B93A1BF789A900EB68EC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1651B9391BF789A900EB68EC /* starfield-opengl.saver */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1651B93B1BF789A900EB68EC /* starfield-opengl */ = {
+			isa = PBXGroup;
+			children = (
+				1651B93C1BF789A900EB68EC /* starfield_openglView.h */,
+				1651B93E1BF789A900EB68EC /* starfield_openglView.m */,
+				1651B9401BF789A900EB68EC /* Info.plist */,
+			);
+			path = "starfield-opengl";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1651B9361BF789A900EB68EC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1651B93D1BF789A900EB68EC /* starfield_openglView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1651B9381BF789A900EB68EC /* starfield-opengl */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1651B9431BF789A900EB68EC /* Build configuration list for PBXNativeTarget "starfield-opengl" */;
+			buildPhases = (
+				1651B9341BF789A900EB68EC /* Sources */,
+				1651B9351BF789A900EB68EC /* Frameworks */,
+				1651B9361BF789A900EB68EC /* Headers */,
+				1651B9371BF789A900EB68EC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "starfield-opengl";
+			productName = "starfield-opengl";
+			productReference = 1651B9391BF789A900EB68EC /* starfield-opengl.saver */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1651B9301BF789A900EB68EC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Jacob Sims";
+				TargetAttributes = {
+					1651B9381BF789A900EB68EC = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+				};
+			};
+			buildConfigurationList = 1651B9331BF789A900EB68EC /* Build configuration list for PBXProject "starfield-opengl" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 1651B92F1BF789A900EB68EC;
+			productRefGroup = 1651B93A1BF789A900EB68EC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1651B9381BF789A900EB68EC /* starfield-opengl */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1651B9371BF789A900EB68EC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1651B9341BF789A900EB68EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1651B93F1BF789A900EB68EC /* starfield_openglView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1651B9411BF789A900EB68EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		1651B9421BF789A900EB68EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		1651B9441BF789A900EB68EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "starfield-opengl/Info.plist";
+				INSTALL_PATH = "$(HOME)/Library/Screen Savers";
+				PRODUCT_BUNDLE_IDENTIFIER = "io.github.jacobsims.starfield-opengl";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = saver;
+			};
+			name = Debug;
+		};
+		1651B9451BF789A900EB68EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "starfield-opengl/Info.plist";
+				INSTALL_PATH = "$(HOME)/Library/Screen Savers";
+				PRODUCT_BUNDLE_IDENTIFIER = "io.github.jacobsims.starfield-opengl";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = saver;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1651B9331BF789A900EB68EC /* Build configuration list for PBXProject "starfield-opengl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1651B9411BF789A900EB68EC /* Debug */,
+				1651B9421BF789A900EB68EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1651B9431BF789A900EB68EC /* Build configuration list for PBXNativeTarget "starfield-opengl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1651B9441BF789A900EB68EC /* Debug */,
+				1651B9451BF789A900EB68EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1651B9301BF789A900EB68EC /* Project object */;
+}
